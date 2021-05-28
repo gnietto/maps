@@ -1,4 +1,4 @@
-mapboxgl.accessToken = ${{ secrets.MAPA }};
+mapboxgl.accessToken = process.env.MAPA;
 
 navigator.geolocation.getCurrentPosition(exito, error, { enableHighAccuracy:  true });
 
