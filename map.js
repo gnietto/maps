@@ -1,4 +1,4 @@
-mapboxgl.accessToken = ${{ secret.MAPA }}
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2lyY3Vsb3RpIiwiYSI6ImNrcDR3ancydDAyN28ydnNiaTd5YjBrdDcifQ.kXtgSC0rTAMhfsATBQUabA';
 
 navigator.geolocation.getCurrentPosition(exito, error, { enableHighAccuracy:  true });
 
